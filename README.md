@@ -12,7 +12,7 @@ Ce projet est une **application web Pokedex** qui affiche les **150 premiers Pok
 ## ⚙️ Installation et Exécution
 ### 🔹 Étape 1 : Cloner le projet
 ```bash
-git clone https://github.com/ton-utilisateur/nom-du-repo.git
+git clone https://github.com/Gregoire-Mouilleau/Atelier3Epsi-Test.git
 ```
 
 ### 🔹 Étape 2 : Lancer un serveur local
@@ -25,7 +25,7 @@ python -m http.server
 ```bash
 cd test/load
 python -m venv env
-source env/bin/activate  # Sous Windows : env\Scripts\Activate.ps1
+source env/bin/activate
 pip install locust
 pip freeze > requirements.txt
 ```
@@ -63,6 +63,3 @@ git add .
 git commit -m "Ajout des tests de charge avec Locust"
 git push origin main
 ```
-
----
-✍ **Réalisé dans le cadre de l'Atelier 3 - Test de Charge** 🚀
